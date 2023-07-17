@@ -1,6 +1,6 @@
 # barber
 -------------------------------------------------
--  #branch[master]->#[pro]-> encoding erro <--#[fix]
+     ->#[master]->#[pro]-> encoding erro <--#[fix]
                           <-[build]
 ---------------------------------------------------
                  ->#[build]<-[dev]
@@ -9,10 +9,10 @@
                           <-[front]
                           -/docker-compose
 ------------------------------------------------------                          
-                 ->#[back]-|-/src/
+               ->#[/back/]-|-/src/
                            |-/Dockerfile
                  
-                 ->#[front]-|-/src/app/pages.js
+               ->#[/front/]-|-/src/app/pages.js
                             |        /common/components/
                             |               /styles/globals.css
                             |       /home/pages.js
